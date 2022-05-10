@@ -1,4 +1,4 @@
-# Jarvis is a chatbot builded for website named Web App
+# Jarvis is a chatbot builded for website named DevApp
 
 ## Installation:
 ### Create a virtual enviremment:
