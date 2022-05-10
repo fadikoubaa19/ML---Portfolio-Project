@@ -195,6 +195,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 ```bash
         self.relu = nn.ReLU()
 ```
+#### data.pth:
+* we found the trained data in this file
 ### Libraries:
 * Torch:An open source machine learning framework that accelerates the path from research prototyping to production deployment.
 * numpy:NumPy is a Python library used for working with arrays. 
