@@ -1,0 +1,230 @@
+    {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+      {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "projects",
+      "patterns": [
+        "when can i do the live projects",
+        "When do i do the live projects ?"
+      ],
+      "responses": [
+        "The live projects will be available at the end of each course",
+        "At the conclusion of each course, live projects will be available. "
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "What is teacher support ?",
+        "who can help me?"
+      ],
+      "responses": [
+        "Teacher support means that if you need assistance, you can ask for it from a teacher who is available 24 hours a day, seven days a week.\nOnly the premium pack will provide you access to teacher support. "
+      ]
+    },
+    {
+      "tag": "packs",
+      "patterns": [
+        "What type of packs do you offer ?",
+        "How many packs you offer?"
+      ],
+      "responses": [
+        "We offer 2 packs . the standard and the premium .",
+        "We have two different bundles for you to choose from.\nThere are two types of packs: basic and premium."
+      ]
+    },
+    {
+        "tag": "مرحباً",
+      "patterns": [
+        "سلام عليكم ",
+        "مرحباً",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "سلام عليكم,كيف أساعدك  ",
+        "مرحباً بك ً"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+       {
+      "tag": "certificate",
+      "patterns": [
+        "is there a certificate?",
+        " what about certificate"
+      ],
+      "responses": [
+        "Yes certificates are included in both packs ."]
+      },
+          {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer ?",
+        "what kind of courses you offer"
+      ],
+      "responses": [
+        "The courses are available on the Website, and two new courses will be added each month."]
+      },
+              {
+      "tag": "heading",
+      "patterns": [
+        "i want to create a heading?",
+        " how can i create a heading?"
+      ],
+      "responses": [
+        "HTML headings are defined with the < h1 > to < h6 > tags.\n< h1 > defines the most important heading. < h6 > defines the least important heading."]
+      },
+                  {
+      "tag": "title",
+      "patterns": [
+        "i want to create a title",
+        " how can i create a title?"
+      ],
+      "responses": [
+        "The title must be text-only, and it is shown in the browser's title bar or in the page's tab. The < title > tag is required in HTML documents!"]
+      },
+                     {
+      "tag": "name",
+      "patterns": [
+        "what's your name"
+      ],
+      "responses": [
+        "I'm Jarvis"]
+      },
+                       {
+      "tag": "live",
+      "patterns": [
+        "what's live projects"
+      ],
+      "responses": [
+        "Live projects is when you get presented a project on github to collaborate on but only if you buy the premium pack"]
+      },
+        {
+      "tag": "Gracias",
+      "patterns": ["Gracias", "Gracias", "Eso es útil", "¡Muchas gracias!"],
+      "responses": ["Encantada de ayudar!", "En cualquier momento!"]
+    },
+       {
+      "tag": "proyectos",
+      "patterns": [
+        "cuando puedo hacer los proyectos en vivo?",
+        "¿Cuándo hago los proyectos en vivo?"
+      ],
+      "responses": [
+        "Los proyectos en vivo estarán disponibles al final de cada curso.",
+        "Al final de cada curso, los proyectos en vivo estarán disponibles. "
+      ]
+    },
+      {
+      "tag": "adiós",
+      "patterns": ["Adiós", "Hasta luego", "Adiós"],
+      "responses": [
+        "Hasta luego, gracias por visitar",
+        "Que tenga un lindo día",
+        "¡Chau! Vuelve pronto."
+      ]
+    },
+       {
+      "tag": "apoyo",
+      "patterns": [
+        "¿Qué es el apoyo docente?",
+        "¿Quién puede ayudarme?"
+      ],
+      "responses": [
+        "El apoyo del maestro significa que si necesita ayuda, puede solicitarla a un maestro que está disponible las 24 horas del día, los siete días de la semana.\nSolo el paquete premium le brindará acceso al soporte para maestros.\n\n "
+      ]
+    },
+    {
+          "tag": "paquetes",
+      "patterns": [
+        "¿Qué tipo de paquetes ofrecen?",
+        "¿Cuántos paquetes ofreces?"
+      ],
+      "responses": [
+        "Ofrecemos 2 paquetes. el estándar y el premium.\n\n",
+        "Tenemos dos paquetes diferentes para que elijas.\nHay dos tipos de packs: básico y premium."
+      ]
+    },
+    {
+          "tag": "nombre",
+      "patterns": [
+        "cuál es tu nombre"
+      ],
+      "responses": [
+        "soy Jarvis"]
+    },
+         {
+      "tag": "certificado",
+      "patterns": [
+        "¿hay un certificado?",
+        "¿Qué pasa con el certificado?"
+      ],
+      "responses": [
+        "Sí, los certificados están incluidos en ambos paquetes."]
+      },
+        {
+      "tag": "divertida",
+      "patterns": [
+        "¡Cuéntame un chiste!",
+        "¡Dime algo divertido!",
+        "¿Sabes un chiste?"
+      ],
+      "responses": [
+        "¿Por qué el hipster se quemó la boca? Bebió el café antes de que se enfriara.",
+        "¿Qué dijo el búfalo cuando su hijo se fue a la universidad? Bisonte."
+      ]
+    },
+       {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "Oye",
+        "cómo estás",
+        "hay alguien ahí?",
+        "Buenos días"
+      ],
+      "responses": [
+        "hola :-)",
+        "Hola, gracias por visitar",
+        "Hola, ¿qué puedo hacer por ti?",
+        "Hola, ¿cómo puedo ayudar?"
+      ]
+    }
+  ]
+}
