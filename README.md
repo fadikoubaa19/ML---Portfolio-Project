@@ -1,4 +1,7 @@
 # Jarvis is a chatbot builded for website named DevApp
+![image](https://user-images.githubusercontent.com/66315303/168298027-86040365-d7a5-4bcc-a794-f9a1e59c83e8.png)
+
+
 
 ## Installation:
 ### Create a virtual enviremment:
@@ -102,6 +105,8 @@ def index_get():
             bag[idx] = 1
  ```
 #### train.py:
+![image](https://user-images.githubusercontent.com/66315303/168298443-74e6e3f2-5619-450f-8908-4059f541ae26.png)
+
 * First of all we need to collect all words
 * ignore punctuation and caractere
 * loop all the paterns
@@ -190,6 +195,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
  self.l1 = nn.Linear(input_size, hidden_size) 
         self.l2 = nn.Linear(hidden_size, hidden_size) 
         self.l3 = nn.Linear(hidden_size, num_classes)
+        
 ````
 * Activation function:
 ```bash
